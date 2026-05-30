@@ -103,6 +103,9 @@ print()
 
 os.chdir(os.path.join(ROOT, 'app'))
 sys.path.insert(0, os.path.join(ROOT, 'src'))
-
+import os
 from app.app import app
-app.run(debug=False, port=args.port, host='127.0.0.1')
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)

@@ -3484,3 +3484,4 @@
 2026-05-30 23:22:54,941 | INFO | [INFO] [PREDICT] IP=127.0.0.1 | score=72.84 grade=B
 2026-05-30 23:22:54,942 | INFO | 127.0.0.1 - - [30/May/2026 23:22:54] "POST /api/predict HTTP/1.1" 200 -
 2026-05-30 23:43:52,394 | INFO |  * Detected change in 'c:\\Users\\HP\\Downloads\\EduPredict_v2_fixed (2)\\EduPredict_fixed\\app\\app.py', reloading
+2026-05-30 23:43:53,657 | INFO |  * Restarting with stat
